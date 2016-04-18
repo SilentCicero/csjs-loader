@@ -1,0 +1,28 @@
+{
+  "name": "csjs-loader",
+  "version": "0.0.1",
+  "description": "A webpack loader for csjs.js files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silentcicero/csjs-loader.git"
+  },
+  "keywords": [
+    "csjs",
+    "webpack",
+    "loader"
+  ],
+  "author": "Nick Dodson <thenickdodson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silentcicero/csjs-loader/issues"
+  },
+  "homepage": "https://github.com/silentcicero/csjs-loader#readme",
+  "dependencies": {
+    "csjs": "^1.0.1",
+    "require-from-string": "^1.1.0"
+  }
+}

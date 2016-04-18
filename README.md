@@ -24,7 +24,13 @@ module.exports = csjs`
 
 ### Webpack
 
+Use csjs-loader with `extract-text-webpack-plugin`
+
 ```javascript
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+...
+
 loaders: [
   { test: /\.csjs.js$/, loader: ExtractTextPlugin.extract("style-loader", 'css!csjs!babel!') }
 ],
